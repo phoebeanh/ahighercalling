@@ -8,10 +8,13 @@
         <title>A Higher Calling</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles-sub.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
@@ -27,13 +30,6 @@
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
                             <li class="nav-item"><a class="nav-link" href="blog-home.html">Blog</a></li>
-                            <!-- <li class="nav-item dropdown"> -->
-                                <!-- <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                                </ul>
-                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -45,9 +41,9 @@
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-white mb-2">A Higher Calling</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">PNW-based nonprofit network of mountaineers and outdoor enthusiasts working to advocate for the community.</p>
+                                <p class="lead fw-normal text-white-50 mb-0">PNW-based nonprofit network of mountaineers and outdoor enthusiasts working to advocate for the community.</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-light btn-lg px-4 me-sm-3" href="about.html">Learn More</a>
+                                    <a class="btn btn-light btn-lg px-4 me-sm-3" href="#about">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -55,43 +51,91 @@
                     </div>
                 </div>
             </header>
-            <!-- Features section-->
-            <section class="py-5" id="features">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5">
-                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Branches of A Higher Calling</h2></div>
-                        <div class="col-lg-8">
-                            <div class="row gx-5 row-cols-1 row-cols-md-2">
-                                <div class="col mb-5 h-100">
-                                    <!-- <div class="feature bg-light bg-gradient text-white rounded-3 mb-3"> -->
-                                        <img width="75px" height="75px" src="https://firebasestorage.googleapis.com/v0/b/ahighercallingpnw-22f5f.appspot.com/o/PRC_Logo.png?alt=media&token=fecc7844-739a-41b3-8d26-c1ac7503f1e8">
-                                        <!-- <i class="bi bi-collection"></i> -->
-                                    <!-- </div> -->
-                                    <h2 class="h5">Punk Rock Climbers</h2>
-                                    <p class="mb-0">Expanding physical accessibility to the outdoors.</p>
-                                </div>
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person"></i></div>
-                                    <h2 class="h5">Survivors of SA/DV</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
-                                </div>
-                                <div class="col mb-5 mb-md-0 h-100">
-                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-binoculars"></i></div>
-                                    <h2 class="h5">Missing and Murdered Hikers</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
-                                </div>
-                                <div class="col h-100">
-                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-brush"></i></div>
-                                    <h2 class="h5">Climbing Art</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
-                                </div>
+
+            <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading fw-bolder mb-0">Who We Are</h2>
+                    <h3 class="section-subheading text-muted">A Higher Calling is made up of four parts: Community, Support, Advocacy and Expression. This manifests into our branches.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image fa-4x">
+                            <i class="fas fa-person fa-stack-1x fa-inverse"></i>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Advocacy</h4>
+                                <h5 class="subheading text-muted fst-italic">Survivors of SA/DV</h5>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Creating community resources for survivors of SA/DV crime.</p>
+                                <br/>
+                                <p>
+                                    <b>Our Areas of Focus</b>
+                                    <ul class="text-muted" style="text-align: left;">
+                                        <li><b>Connect</b>: Survivors are invited to join us monthly for support hikes and climbs (now partnering with Edgeworks Climbing + Fitness).</li>
+                                        <li>Check out <a href="https://instagram.com/ahighercallingpnw">Instagram</a> to sign up and the official <i>Climb, Heal, Overcome</i> <a href="http://climbhealovercome.org">website</a> for more info!</li>
+                                        <li><b>Restorative Justice</b>: Our network of lawyers, members of law enforcement, therapists, and mental health professionals are available via referral to help survivors gain justice</li>
+                                        <li><b>Preventative Measures</b>: The Anti-Harassment Alliance and Bystander Training <i>*Coming soon!*</i></li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </li>
+                    <li class="timeline-inverted">
+                        <span class="timeline-image fa-4x">
+                            <i class="fas fa-vest fa-stack-1x"></i>
+                            </span>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Support</h4>
+                                <h5 class="subheading text-muted fst-italic">Missing and Murdered Hikers</h5>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Supporting community-based, family-lead searches for missing and murdered</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://firebasestorage.googleapis.com/v0/b/ahighercallingpnw-22f5f.appspot.com/o/PRC_Logo.png?alt=media&token=fecc7844-739a-41b3-8d26-c1ac7503f1e8" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Community</h4>
+                                <h4 class="subheading text-muted fst-italic">Punk Rock Climbers</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Our goal with the Punk Rock Climbers is to expand physical accessibility to the outdoors. Check us out on <a href="https://www.instagram.com/punkrockclimbers/?hl=en">Instagram</a>!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <span class="timeline-image fa-4x">
+                            <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
+                            </span>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Expression</h4>
+                                <h4 class="subheading text-muted fst-italic">Climbing Art</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Advocating for more art in the climbing community. The PNW branch of the <i>Climb, Heal, Overcome</i> <a href="https://instagram.com/ahighercallingpnw">Instagram</a> features local artists regularly!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+            
             <!-- Blog preview section-->
-            <section class="py-5 bg-light">
+            <!-- <section class="py-5 bg-light">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
@@ -132,7 +176,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- Call to action-->
                     <aside class="bg-dark bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
@@ -158,9 +202,9 @@
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; A Higher Calling 2023</div></div>
                     <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
+                        <a class="link-light small" href="https://instagram.com/ahighercallingpnw"><i class="fab fa-instagram"></i></a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
+                        <a class="link-light small" href="#!"><i class="fab fa-facebook-f"></i></a>
                         <span class="text-white mx-1">&middot;</span>
                         <a class="link-light small" href="contact.html">Contact</a>
                     </div>
