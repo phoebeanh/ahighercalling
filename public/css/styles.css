@@ -7784,6 +7784,11 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-white-75 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -11307,4 +11312,11 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+
+.header-img {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("https://firebasestorage.googleapis.com/v0/b/ahighercallingpnw-22f5f.appspot.com/o/header.jpg?alt=media&token=fd0c201a-ebbf-4774-9bb6-b7e364a0666f");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
 }
