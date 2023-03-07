@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "firebase": "^9.17.2",
     "firebase-tools": "^11.24.0",
     "startbootstrap-modern-business": "^5.0.6"
   }
